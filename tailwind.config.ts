@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        mainColor:"var(--main-color)",
+        borderColor:"var(--border-color)",
+        bannerColor:"var(--banner-color)",
+        textBlack:"var(--text-black)"
       },
     },
   },

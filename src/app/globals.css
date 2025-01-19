@@ -1,10 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --main-color:#b2cc29;
+
+  --banner-color: #f4f4f4;
+  --border-color:rgba(217, 217, 217, 0.69);
+
+  --text-black:#383838;
 }
 
 @media (prefers-color-scheme: dark) {
