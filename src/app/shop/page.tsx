@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState } from 'react';
 import ContactBanner from '../_component/ContactBanner';
 import ProductCard from '../_component/ProductCard';

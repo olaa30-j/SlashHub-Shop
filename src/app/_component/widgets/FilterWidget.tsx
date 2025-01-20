@@ -69,7 +69,6 @@ const FilterWidget: React.FC<CategoryData> = ({ brands }) => {
       </Typography>
       <List sx={{ padding: 0 }}>
         {brands.map((brand, index) => {
-          const randomNumber = Math.floor(Math.random() * 11);
           return (
             <ListItem key={`${index}`} sx={{ padding: 0 }}>
               <FormControlLabel
@@ -90,7 +89,7 @@ const FilterWidget: React.FC<CategoryData> = ({ brands }) => {
                   <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
                     <Typography variant="body2" sx={{ fontSize: "13px", fontWeight: "200" }}>{brand}</Typography>
                     <Typography variant="body2" sx={{ color: 'var(--main-color)', marginLeft: "4px" }}>
-                      {randomNumber}
+                      22
                     </Typography>
                   </Box>
                 }

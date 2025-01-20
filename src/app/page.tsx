@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
       <img src="/assets/soon.gif" alt="Product 1" className='w-[50vw] h-[80vh] block m-auto'/>
-      <Link href="/shop" passHref>
+      <Link href="/shop">
       <Button
         variant="contained"
         sx={{

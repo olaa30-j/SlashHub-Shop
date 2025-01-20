@@ -32,6 +32,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     };
     const handleAddToCart = (event: React.FormEvent) => {
         event.preventDefault();
+        // to check product added correctly
         console.log("Product added to cart:", product.title);
     };
 
