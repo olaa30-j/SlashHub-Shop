@@ -1,5 +1,5 @@
 import axios, { AxiosError } from "axios";
-import { Product } from "../_store/reducers/productsSlice";
+import { Product } from "../../store/reducers/productsSlice";
 
 export async function getProductDetails(product: string): Promise<Product> {
   try {

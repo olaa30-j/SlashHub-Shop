@@ -16,7 +16,7 @@ import {
     Favorite as FavoriteIcon,
 } from "@mui/icons-material";
 import ProductSlider from "./ProductSlider";
-import { Product } from "../_store/reducers/productsSlice";
+import { Product } from "@/store/reducers/productsSlice";
 
 
 interface ProductDetailsProps {

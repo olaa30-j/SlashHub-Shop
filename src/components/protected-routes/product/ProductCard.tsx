@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton, Box, Chip } from '@mui/material';
 import { FavoriteBorder, ShoppingBag, CompareArrows } from '@mui/icons-material';
-import { Product } from '../_store/reducers/productsSlice';
+import { Product } from '@/store/reducers/productsSlice';
 import Link from 'next/link';
 
 interface ProductCardProps {

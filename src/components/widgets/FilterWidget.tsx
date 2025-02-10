@@ -12,8 +12,8 @@ import {
   Divider,
   TextField,
 } from '@mui/material';
-import { useAppDispatch, useAppSelector } from '@/app/_store/store';
-import { toggleBrandFilter, setPriceRange, setSearchQuery } from '@/app/_store/reducers/productsSlice';
+import { useAppDispatch, useAppSelector } from '@/store/store';
+import { toggleBrandFilter, setPriceRange, setSearchQuery } from '@/store/reducers/productsSlice';
 
 interface CategoryData {
   brands: string[];

@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import ProductDetails from "@/app/_component/ProductDetails";
-import { getProductDetails } from "@/app/_lib/getProduct";
-import { Product } from "@/app/_store/reducers/productsSlice";
+import ProductDetails from "@/components/protected-routes/product/ProductDetails";
+import { getProductDetails } from "@/app/api/getProduct";
+import { Product } from "@/store/reducers/productsSlice";
 
 interface PageProps {
   params: Promise<{ product: string }>; 

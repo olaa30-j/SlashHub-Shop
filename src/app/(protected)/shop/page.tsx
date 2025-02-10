@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import ContactBanner from '../_component/ContactBanner';
-import ProductCard from '../_component/ProductCard';
-import FilterWidget from '../_component/widgets/FilterWidget';
-import { useAppDispatch, useAppSelector } from '../_store/store';
-import { fetchProducts } from '../_store/reducers/productsSlice';
+import ContactBanner from '@/components/shared/ContactBanner';
+import ProductCard from '@/components/protected-routes/product/ProductCard';
+import FilterWidget from '@/components/widgets/FilterWidget';
+import { useAppDispatch, useAppSelector } from '@/store/store';
+import { fetchProducts } from '@/store/reducers/productsSlice';
 
 const Page = () => {
   const dispatch = useAppDispatch();
